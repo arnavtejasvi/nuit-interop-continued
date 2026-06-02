@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "me.flashyreese.mods.nuit_interop_continued.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["MixinSkyboxResourceListener"],
+  "injectors": {"defaultRequire": 1}
+}

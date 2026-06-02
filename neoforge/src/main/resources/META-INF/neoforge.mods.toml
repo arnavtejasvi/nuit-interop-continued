@@ -1,0 +1,21 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+license = "MIT"
+
+[[mods]]
+modId = "nuit_interop_continued"
+version = "${version}"
+displayName = "Nuit Interop Continued"
+description = '''
+Continues the work of Nuit Interop (by FlashyReese) for MC 1.21.5. Automatically converts OptiFine/MCPatcher custom sky resource packs to Nuit format at runtime.
+'''
+
+[[mixins]]
+config = "nuit_interop_continued.mixins.json"
+
+[[dependencies.nuit_interop_continued]]
+modId = "nuit"
+type = "required"
+versionRange = "[1.0,)"
+ordering = "NONE"
+side = "CLIENT"

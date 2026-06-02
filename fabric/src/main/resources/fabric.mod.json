@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nuit_interop_continued",
+  "version": "${version}",
+  "name": "Nuit Interop Continued",
+  "description": "Continues the work of Nuit Interop (by FlashyReese) for MC 1.21.5. Automatically converts OptiFine/MCPatcher custom sky resource packs to Nuit format at runtime.",
+  "authors": ["ar_tyyuu"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["me.flashyreese.mods.nuit_interop_continued.fabric.NuitInteropContinuedFabric"]
+  },
+  "mixins": ["nuit_interop_continued.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~1.21.5",
+    "nuit": "*"
+  }
+}
